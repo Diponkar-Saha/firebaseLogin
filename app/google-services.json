@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "907173992318",
+    "firebase_url": "https://dipchat-d1f38.firebaseio.com",
+    "project_id": "dipchat-d1f38",
+    "storage_bucket": "dipchat-d1f38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907173992318:android:568acad06452220d66852f",
+        "android_client_info": {
+          "package_name": "com.example.firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907173992318-l49uo7135113g9fa8qg41bvur6bp1r1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaselogin",
+            "certificate_hash": "fe1bbff6b837331f9f096a0173733a624a5734ad"
+          }
+        },
+        {
+          "client_id": "907173992318-5e44togrqvtc3rvcitl4an1gouctes0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA19qvdp1R2l8Ey_0UalxqlKMmNdz6lmeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907173992318-5e44togrqvtc3rvcitl4an1gouctes0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

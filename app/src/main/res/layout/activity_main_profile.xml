@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+
+    tools:context=".MainProfileActivity">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageIv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:hint="name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></TextView>
+        <TextView
+            android:id="@+id/ageTV"
+            android:hint="age"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></TextView>
+        <TextView
+            android:id="@+id/emailTV"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></TextView>
+
+
+        <Button
+            android:id="@+id/signBT"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign Up"
+
+            ></Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

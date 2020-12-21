@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <EditText
+            android:id="@+id/namexET"
+            android:hint="name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></EditText>
+        <EditText
+            android:id="@+id/agexET"
+            android:hint="age"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></EditText>
+        <EditText
+            android:id="@+id/emailxET"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></EditText>
+        <EditText
+            android:id="@+id/passwordET"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></EditText>
+
+        <Button
+            android:id="@+id/signupBT"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign Up"
+
+            ></Button>
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ></ProgressBar>
+
+        <TextView
+            android:id="@+id/loginTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If u Registration..please Login"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+
+            ></TextView>
+
+
+
+</LinearLayout>
+
+
+</RelativeLayout>
